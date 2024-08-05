@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 
+    "module": "commonjs", // 
+    "outDir": "./dist", // La carpeta donde se va generar el compilador de JS
+    "rootDir": "./src", // Donde van todos los archivos de TS que van a ser complicados
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"] // PARA TODO EL ARCHIVO DE FORMA GENERA
+}
